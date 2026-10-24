@@ -93,3 +93,4 @@ scripts/                   Reference conversion, direct-open build, render check
 tests/domain.test.ts       State/calculation regression checks
 asset-manifest.json        Reference assets and known fidelity gaps
 ```
+# RunMyStore
