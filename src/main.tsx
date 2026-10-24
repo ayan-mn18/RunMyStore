@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter,Routes,Route,Navigate} from 'react-router-dom';
 import {Provider} from './store';
 import './styles.css';
+import './landing.css';
 const Landing=lazy(()=>import('./pages/Landing'));
 const Workspace=lazy(()=>import('./Workspace'));
 const Onboarding=lazy(()=>import('./pages/Onboarding'));

@@ -1,0 +1,9 @@
+node_modules
+renders/
+snapshots/
+.hyperframes/cache/
+.hyperframes/history/
+build/voice-test-empty.aiff
+*.log
+.DS_Store
+assets/audio/.voice-build-*/

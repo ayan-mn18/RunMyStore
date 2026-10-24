@@ -1,0 +1,34 @@
+{
+  "accessed": "2026-10-24",
+  "market": {
+    "liveStores": 14005842,
+    "shopifyStores": 3163099,
+    "source": "https://storeleads.app/reports",
+    "sourceUpdated": "2026-10-16",
+    "unit": "Detected live store domains, not unique businesses or paying customers",
+    "qualificationAssumption": 0.1,
+    "monthlyPriceAssumptionUSD": 99,
+    "tamAnnualUSD": 1663894029.6,
+    "samAnnualUSD": 375776161.2,
+    "method": "Indicative TAM = observed live stores × assumed 10% qualification × assumed $99/month × 12. Initial Shopify SAM uses the Shopify subset and the same assumptions. Deduplication, qualification and willingness to pay remain unvalidated. TAM is software revenue opportunity, not GMV. Neither estimate is a forecast.",
+    "discrepancy": "The Shopify detail page showed 3,163,100 while the aggregate report showed 3,163,099. The model consistently uses the aggregate snapshot. This one-domain difference does not affect rounded figures."
+  },
+  "sources": [
+    {"id":"S1","title":"Store Leads: The State of Ecommerce in 2026","url":"https://storeleads.app/reports","date":"2026-10-16","supports":"14,005,842 detected live stores and 3,163,099 Shopify stores. Third-party crawl, not official merchant census."},
+    {"id":"S2","title":"Shopify FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm","date":"2025-12-31 reporting period","supports":"FY2025 GMV of $378,441 million. Context only, excluded from software TAM and not shown as RunMyStore traction."},
+    {"id":"S3","title":"Shopify Community: Admin and sidekick slow to respond","url":"https://community.shopify.com/t/admin-and-sidekick-slow-to-respond/615291","date":"2026-04-29","author":"Central_Hobbies","excerpt":"It takes several seconds to over a minute for anything I do on the admin page or sidekick to respond.","supports":"One merchant's self-reported admin latency. Not a measured benchmark or proof of a platform-wide defect."},
+    {"id":"S4","title":"Reddit: I feel like it's all getting too much","url":"https://www.reddit.com/r/ShopifyeCommerce/comments/1wbhux6/i_feel_like_its_all_getting_too_much/","author":"u/aylin-97","supports":"A merchant describes separate apps, dependence on integrations and unexpectedly high total costs. Anecdote, not prevalence data."},
+    {"id":"S5","title":"Shopify Help: Improving your online store performance","url":"https://help.shopify.com/en/manual/online-store/web-performance/improving-web-performance","supports":"Themes, apps and media can affect storefront performance. Shopify also supplies global hosting, CDN and image optimization. Storefront performance and admin latency are different."},
+    {"id":"S6","title":"Shopify Help: Sidekick","url":"https://help.shopify.com/en/manual/ai-powered-tools/sidekick","supports":"Uses store data, executes multi-step tasks, presents changes for review, builds Flow workflows and creates content. RunMyStore cannot claim these capabilities are unique."},
+    {"id":"S7","title":"AdCreative.ai","url":"https://www.adcreative.ai/","supports":"AI ad creative generation, video and creative scoring. Vendor capability description, no independent effectiveness claim."},
+    {"id":"S8","title":"Klaviyo: AI marketing platform","url":"https://www.klaviyo.com/","supports":"Customer data, marketing automation and ecommerce integrations. Vendor capability description, no independent effectiveness claim."},
+    {"id":"S9","title":"RunMyStore prototype source","path":"../../src/domain.ts","supports":"Frontend-only catalog, website, ads, campaigns, budgets and local approvals. AI and AgenticOrg execution are simulated."}
+  ],
+  "socialCards": {
+    "disclosure": "Illustrative posts. Fictional merchants, invented wording, no real handles, engagement counts or endorsements. These are not X screenshots or evidence.",
+    "posts": [
+      "I started a brand to make better products. Today I’m rewriting listings, resizing ads and switching dashboards. When do I get back to the product?",
+      "My Shopify admin feels slow today. I only wanted to update a product. Now I’m waiting, refreshing and troubleshooting instead of working on my store."
+    ]
+  }
+}

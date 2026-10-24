@@ -1,0 +1,10 @@
+/* Keep the detailed catalog receipt inside its panel at 1920×1080. */
+.catalog-layout{height:580px}
+.catalog-result h2{font-size:46px;line-height:1.02;margin:14px 0}
+.catalog-result>p:not(.panel-label){font-size:22px;line-height:1.35}
+.catalog-result .seo-result{margin-top:18px;padding-top:14px}
+.catalog-result .seo-result strong{font-size:20px}
+.catalog-result .seo-result span{font-size:18px}
+.catalog-result .badge{margin-top:16px}
+.catalog-result .artifact-tag{margin-top:12px;font-size:15px;gap:8px}
+.catalog-result .artifact-tag svg{width:18px;height:18px}

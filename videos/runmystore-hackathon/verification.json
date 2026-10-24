@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "scenes": 9,
+  "duration": 90,
+  "assetReferences": "present",
+  "standalonePresentation": "embedded images and fonts",
+  "fixtureReconciliation": "passed",
+  "playerStateChecks": "passed (no browser layout)",
+  "browserVisualQA": "blocked by automatic approval review infrastructure 404",
+  "mp4": "not rendered"
+}

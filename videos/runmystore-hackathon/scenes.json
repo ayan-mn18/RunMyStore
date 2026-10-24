@@ -1,0 +1,218 @@
+[
+  {
+    "id": "01-problem",
+    "title": "One store. Too many jobs.",
+    "duration": 8,
+    "chapter": "The problem",
+    "captions": [
+      [
+        0,
+        2,
+        "You started a store."
+      ],
+      [
+        2,
+        6,
+        "Website. Listings. Ads. Reports. The work piles up."
+      ],
+      [
+        6,
+        8,
+        "Who connects it? You do."
+      ]
+    ],
+    "notes": "Open on the merchant, not on AI. The problem is coordination: a small merchant has to carry the same product facts across separate tools and make spending decisions from separate reports. This is a problem hypothesis, not a quantified market finding.",
+    "start": 0
+  },
+  {
+    "id": "02-solution",
+    "title": "One connected workspace.",
+    "duration": 8,
+    "chapter": "The solution",
+    "captions": [
+      [
+        0,
+        3,
+        "Meet RunMyStore. One connected workspace."
+      ],
+      [
+        3,
+        8,
+        "From product to storefront. From creative to campaign. With you in control."
+      ]
+    ],
+    "notes": "Position RunMyStore as the connected merchant workspace. Its central value is that product context and approvals travel through the workflow. The AI actions are simulated for this hackathon UI prototype.",
+    "start": 8
+  },
+  {
+    "id": "03-catalog",
+    "title": "Start with the product truth.",
+    "duration": 10,
+    "chapter": "Catalog Studio",
+    "captions": [
+      [
+        0,
+        3,
+        "Start with a product and the facts you know."
+      ],
+      [
+        3,
+        6.6,
+        "Prepare descriptions, images and search metadata."
+      ],
+      [
+        6.6,
+        10,
+        "Review the listing before it moves downstream."
+      ]
+    ],
+    "notes": "Catalog Studio supports product fields, SKU validation, image input and listing preparation. The demo uses prepared output; it does not infer factual claims from a photograph. Unknown material or dimensions must be supplied by the merchant. The approved artifact is reusable downstream.",
+    "start": 16
+  },
+  {
+    "id": "04-website",
+    "title": "A storefront that feels like you.",
+    "duration": 10,
+    "chapter": "Website Builder",
+    "captions": [
+      [
+        0,
+        3,
+        "Build a storefront around the same catalog."
+      ],
+      [
+        3,
+        6.5,
+        "Edit sections, refine your brand, check mobile."
+      ],
+      [
+        6.5,
+        10,
+        "Then review and publish your demo."
+      ]
+    ],
+    "notes": "Use Website Builder in the live demo: edit the hero and sections, preview desktop or mobile, and review the draft. Publication creates an immutable local demo snapshot, not a public live store. Approved catalog products are available to this builder.",
+    "start": 26
+  },
+  {
+    "id": "05-ads",
+    "title": "One product. Three introductions.",
+    "duration": 10,
+    "chapter": "Ad Studio",
+    "captions": [
+      [
+        0,
+        3,
+        "Turn that product into ad concepts."
+      ],
+      [
+        3,
+        6.8,
+        "Compare variations for Meta, Google and TikTok."
+      ],
+      [
+        6.8,
+        10,
+        "Edit the copy. Save a creative. Attach it to a campaign."
+      ]
+    ],
+    "notes": "The UI creates prepared editable concepts tied to the selected catalog product, with platform previews and a versioned creative library. These visuals illustrate concept preparation, not live ads. Static artwork and carousel cards can export as PNG; generated video is currently a storyboard.",
+    "start": 36
+  },
+  {
+    "id": "06-campaigns",
+    "title": "See what the campaign is doing.",
+    "duration": 11,
+    "chapter": "Campaign tracking",
+    "captions": [
+      [
+        0,
+        3.5,
+        "Track spend, revenue and purchases together."
+      ],
+      [
+        3.5,
+        7.2,
+        "See campaign status and compare channels."
+      ],
+      [
+        7.2,
+        11,
+        "Seeded demo figures illustrate the decisions a merchant needs to make."
+      ]
+    ],
+    "notes": "All numbers are October 1–24, 2026 fixtures from the app: $31,920 attributed revenue, $9,000 ad spend, 399 purchases. ROAS is 31,920 divided by 9,000, rounded to 3.55. This is not company traction, a causal lift claim, or a forecast. New demo campaigns begin with zero history; next-day events are simulated.",
+    "start": 46
+  },
+  {
+    "id": "07-budget",
+    "title": "Move the money. Keep the limit.",
+    "duration": 11,
+    "chapter": "Budgeting & approval",
+    "captions": [
+      [
+        0,
+        4,
+        "Move $500 from Meta and $300 from TikTok to Google."
+      ],
+      [
+        4,
+        7.8,
+        "The $12,000 monthly cap stays fixed."
+      ],
+      [
+        7.8,
+        11,
+        "You review the proposal and approve the change."
+      ]
+    ],
+    "notes": "This is the exact planning scenario in the app. Meta moves from $6,000 to $5,500; Google from $3,600 to $4,400; TikTok from $2,400 to $2,100. The total stays at $12,000. The recommendation responds to seeded pacing, not a proven performance optimization. Show Review, then Approve & apply, then the decision journal.",
+    "start": 57
+  },
+  {
+    "id": "08-agents",
+    "title": "Agentic by design. Human by decision.",
+    "duration": 13,
+    "chapter": "AgenticOrg plan",
+    "dark": true,
+    "captions": [
+      [
+        0,
+        4,
+        "The intended orchestration layer: AgenticOrg by Pine Labs."
+      ],
+      [
+        4,
+        8.5,
+        "Shared context. Specialist roles. Approval before action."
+      ],
+      [
+        8.5,
+        13,
+        "Today the connected UI uses mock data. Agent execution is simulated."
+      ]
+    ],
+    "notes": "Be explicit with judges: AgenticOrg is a proposed integration; current role handoffs are simulated. Proposed flow: a request carries shared product/catalog context; specialists prepare artifacts; the operator presents a diff; a merchant approves; a scoped tool executes and records a receipt. Real AgenticOrg, model and external provider calls remain next steps, not completed features.",
+    "start": 68
+  },
+  {
+    "id": "09-close",
+    "title": "You run the business.",
+    "duration": 9,
+    "chapter": "The live demo",
+    "captions": [
+      [
+        0,
+        4.5,
+        "You run the business. RunMyStore runs the store."
+      ],
+      [
+        4.5,
+        9,
+        "Let’s walk through the prototype: one product, one campaign, one approved decision."
+      ]
+    ],
+    "notes": "Switch to the live prototype. Start in Catalog Studio and open the draft mug. Confirm material, prepare and approve the listing. Show Website Builder, then Ad Studio, attach a saved creative to a draft campaign, and close by reviewing the budget recommendation. State that all external actions are simulated.",
+    "start": 81
+  }
+]

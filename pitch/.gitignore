@@ -1,0 +1,10 @@
+build/node_modules
+build/*.pptx
+build/slide-*.png
+build/*.layout.json
+build/*.webp
+.codex-finalizer/
+build/final-previews/
+build/presentation.json
+build/*.inspect.ndjson
+build/deck-contact-sheet.png

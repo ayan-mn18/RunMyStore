@@ -1,0 +1,15 @@
+{
+  "name": "runmystore-hackathon",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build/pitch.mjs",
+    "voice": "node build/deepgram-voice.mjs",
+    "voice:plan": "node build/deepgram-voice.mjs --dry-run",
+    "verify": "node --experimental-strip-types build/verify.mjs",
+    "dev": "npx --yes hyperframes@0.8.78 preview",
+    "check": "npx --yes hyperframes@0.8.78 check",
+    "render": "npx --yes hyperframes@0.8.78 render",
+    "publish": "npx --yes hyperframes@0.8.78 publish"
+  }
+}

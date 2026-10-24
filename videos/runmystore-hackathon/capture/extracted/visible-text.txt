@@ -1,0 +1,8 @@
+RunMyStore: You run the business. RunMyStore runs the store.
+Problem: one merchant coordinates website edits, product details, ad creation, campaign results, customer questions and spending across disconnected tools.
+Solution: a connected workspace for catalog, website, ads, campaigns and budgets, with approval before consequential changes.
+Implemented: browser-persisted UI using deterministic mock data. Catalog editing and validation. Responsive storefront builder. Editable ad concepts. Campaign lifecycle and tracking. Budget cap and approvals. Agent run journal, orders and support screens.
+Demonstration: Everyday ceramic mug; Northwind demo store; $40 listing. October baseline $31,920 revenue, $9,000 spend, 399 purchases, 830,000 impressions, 18,000 clicks. ROAS = 3.5467. These are seeded demo figures, not real performance or traction.
+Budget: move $500 from Meta and $300 from TikTok to Google; allocations $6000/$3600/$2400 become $5500/$4400/$2100 with unchanged $12000 cap. This is a planning scenario, not a promise of revenue improvement.
+AgenticOrg by Pine Labs: intended workflow orchestration layer. Current role handoffs are simulated. Proposed roles: Store Builder, Catalog, Creative Studio, Campaign Analyst, Budget Planner. Merchant reviews changes.
+No live LLM, AgenticOrg, advertising or payment execution exists in the current frontend prototype.
