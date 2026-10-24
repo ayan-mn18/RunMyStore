@@ -75,7 +75,9 @@ Use **Settings → Demo controls → Reset demo workspace** before repeating the
 
 See [VERIFICATION.md](./VERIFICATION.md) for actual checks and remaining browser acceptance work. The StoreOS references were sanitized into inert markup: no captured scripts, analytics, Tally forms, extension bundles, external account links, or live execution are retained. All operations use browser data; the only normal network requests when hosted are static site assets.
 
-AgenticOrg is a **workflow preview, simulated**. No AI model, provider account, advertisement, payment, email, shipment, or customer-message action is actually executed. This prototype does not satisfy a requirement for real AgenticOrg execution by itself.
+**Live assistant:** with `VITE_AGENTICORG_API_KEY` and `VITE_RMS_AGENT_ID` set in `.env` (see `.env.example`), "Ask RunMyStore" sends each message and a snapshot of the workspace to that AgenticOrg agent. Its suggested changes (budget proposals, storefront revisions, listings, ad drafts) become local drafts and approval requests, and nothing applies without review. If the agent can't be reached, the prepared answers below take over. AgenticOrg blocks cross-origin browser calls, so `npm run dev` and `npm run preview` proxy `/api/v1` to `VITE_AGENTICORG_BASE_URL`; a static host needs the same rewrite. `VITE_*` values are compiled into the bundle, so keep such builds private.
+
+AgenticOrg agent workflows elsewhere in the app are a **workflow preview, simulated**. No AI model, provider account, advertisement, payment, email, shipment, or customer-message action is actually executed. This prototype does not satisfy a requirement for real AgenticOrg execution by itself.
 
 The original Geist, Instrument Serif, Anton fonts, sky/night imagery, and video were absent from the supplied bundle. Inter/JetBrains Mono/Georgia and sky gradients are recorded fallbacks. The film frame opens a local walkthrough entry. Exact pixel fidelity and visual accessibility have not been certified.
 

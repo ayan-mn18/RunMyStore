@@ -12,6 +12,7 @@
     "verify:render": "esbuild scripts/verify-render.tsx --bundle --platform=node --format=esm --jsx=automatic --packages=external --outfile=test-results/verify-render.mjs --define:process.env.NODE_ENV=\"\\\"production\\\"\" && NODE_ENV=production node test-results/verify-render.mjs"
   },
   "dependencies": {
+    "agenticorg-sdk": "0.4.0",
     "lucide-react": "^0.454.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
