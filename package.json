@@ -1,0 +1,29 @@
+{
+  "name": "run-my-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "build:open-demo": "node scripts/build-open-demo.mjs",
+    "verify:render": "esbuild scripts/verify-render.tsx --bundle --platform=node --format=esm --jsx=automatic --packages=external --outfile=test-results/verify-render.mjs --define:process.env.NODE_ENV=\"\\\"production\\\"\" && NODE_ENV=production node test-results/verify-render.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.454.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "esbuild": "^0.21.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

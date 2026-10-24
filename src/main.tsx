@@ -1,0 +1,11 @@
+import React,{Suspense,lazy} from 'react';
+import ReactDOM from 'react-dom/client';
+import {BrowserRouter,Routes,Route,Navigate} from 'react-router-dom';
+import {Provider} from './store';
+import './styles.css';
+const Landing=lazy(()=>import('./pages/Landing'));
+const Workspace=lazy(()=>import('./Workspace'));
+const Onboarding=lazy(()=>import('./pages/Onboarding'));
+const Storefront=lazy(()=>import('./pages/Storefront'));
+const Legal=lazy(()=>import('./pages/Legal'));
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><BrowserRouter><Provider><Suspense fallback={<div className="app-loading"><span className="brand-serif">RunMyStore.</span><p>Getting things ready.</p></div>}><Routes><Route path="/" element={<Landing/>}/><Route path="/onboarding" element={<Onboarding/>}/><Route path="/app/*" element={<Workspace/>}/><Route path="/store/:slug/*" element={<Storefront/>}/><Route path="/legal/:page" element={<Legal/>}/><Route path="*" element={<div className="not-found"><h1>This page took a wrong turn.</h1><a href="/app/overview">Back to your workspace →</a></div>}/></Routes></Suspense></Provider></BrowserRouter></React.StrictMode>);
